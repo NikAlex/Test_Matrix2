@@ -7,7 +7,7 @@ matrix:
         apt:
           packages:
             - g++-5
-          sources: &sources
+          sources: &sources 
             - llvm-toolchain-precise
             - ubuntu-toolchain-r-test
     # - os: linux
